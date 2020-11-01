@@ -41,7 +41,7 @@ function draw() {
   ground.display();
 
   drawSprites();
- 
+ //sprite
 }
 function keyPressed(){
 	if(keyCode === UP_ARROW){
