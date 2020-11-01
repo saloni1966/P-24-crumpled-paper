@@ -8,9 +8,9 @@ class Paper{
             density:1.5
 
         }
+        this.r =30
+        this.body= Bodies.circle(x,y,this.r/2,options);
         
-        this.body= Bodies.circle(x,y,30,options);
-        this.r = 30;
         World.add(world,this.body);
 
 
