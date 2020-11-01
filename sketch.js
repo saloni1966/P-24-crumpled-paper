@@ -29,7 +29,7 @@ function setup() {
   
 }
 
-//function 
+//function draw
 function draw() {
   rectMode(CENTER);
   background(0);
