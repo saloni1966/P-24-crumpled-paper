@@ -8,9 +8,9 @@ class Paper{
             density:1.5
 
         }
-        this.r =30
-        this.body= Bodies.circle(x,y,this.r/2,options);
-        
+      
+        this.body= Bodies.circle(x,y,20,options);
+        this.r =20
         World.add(world,this.body);
 
 
@@ -23,7 +23,7 @@ class Paper{
 			rectMode(CENTER)
 			
             fill(255,0,255)
-            ellipseMode(CENTER);
+            ellipseMode(RADIUS);
 			ellipse(0,0,this.r, this.r);
 			pop()
        
